@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diary</title>
+	<script type="text/javascript" src="/eel.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1>Diary</h1>
+
+		<div class="elements" id="elements">
+			
+		</div>
+
+		<div class="form">
+			<form action="#">
+				<input type="text" id="task" placeholder="Task" required>
+				<input type="text" id="description" placeholder="Description">
+			</form>
+		</div>
+
+		<div class="buttons">
+			<button id="add" class="button">Add</button>
+			<button id="remove" class="button">Remove All</button>
+		</div>
+
+		<div class="error_task" id="error_task">
+			<p>!Write task</p>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
